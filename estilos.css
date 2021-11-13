@@ -1,0 +1,162 @@
+.cabecera {
+  background: blueviolet;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+  border-radius: 12px 12px 0px 0px;
+  display: flex;
+  height: 10%;
+  box-sizing: content-box;
+  padding: 0.4% 1%;
+}
+
+.cabecera div img {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 400px;
+  background-image: url('https://unite.pokemon.com/images/home/team-up/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  margin: 0;
+  margin: auto;
+}
+
+.contenedor {
+  width: 80%;
+  background-color: transparent;
+  margin: auto;
+  margin-top: 2em;
+  height: 102%;
+  border: 1px solid rgba(60, 60, 65, 0.8);
+  border-radius: 20px;
+  box-shadow: 0 0 90px 0 rgb(0 0 0 / 60%);
+  display: flex;
+  flex-direction: column;
+}
+
+.centro {
+  display: flex;
+  width: 100%;
+  height: 70%;
+  border: 1px solid rgba(60, 60, 65, 0.8);
+  background-color: rgba(0, 0, 0, 0.068);
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+.nombre {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  color: black;
+  text-align: center;
+}
+.titulo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+.imP {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  border-radius: 80px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.informa {
+  display: grid;
+  grid-template-columns: auto auto;
+  border: 1px solid rgba(60, 60, 65, 0.8);
+  background-color: rgba(238, 223, 9, 0.726);
+  opacity: 5;
+  text-align: center;
+  width: 25%;
+  margin: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  font-family: 'PT Sans', sans-serif;
+  margin-top: 1em;
+}
+
+.informa div {
+  margin: auto;
+}
+
+.informa p.titulo {
+  font-size: 23px;
+}
+.informa p.dato {
+  font-size: 20px;
+}
+
+.final {
+  display: flex;
+  width: 60%;
+  height: 20%;
+
+  text-align: center;
+  background-color: rgba(15, 15, 15, 0.575);
+
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+  border-radius: 0px 0px 12px 12px;
+  margin: auto 0;
+  box-sizing: content-box;
+  padding: 0.4% 1%;
+}
+.final h6 {
+  width: 20%;
+  margin: auto;
+  font-size: 25px;
+  font-style: italic;
+  text-shadow: 0 2 px 0 px var(--shadow);
+  transform: translateX(-50 px);
+  transition-delay: 0.3s;
+  font-family: 'PT Sans', sans-serif;
+}
+.final div {
+  width: 80%;
+  margin-left: 10%;
+  margin: auto;
+}
+.final div button {
+  margin-inline: 2em;
+  opacity: 5;
+  background-color: rgba(214, 196, 196, 0.253);
+  border-radius: 20px;
+}
+
+.final div button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.otros {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.caja2 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  background: rgb(184, 9, 9);
+  border-radius: 5px;
+}

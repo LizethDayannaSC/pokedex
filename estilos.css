@@ -1,21 +1,5 @@
-.cabecera {
-  background: blueviolet;
-  box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
-  border-radius: 12px 12px 0px 0px;
-  display: flex;
-  height: 10%;
-  box-sizing: content-box;
-  padding: 0.4% 1%;
-}
-
-.cabecera div img {
-  margin: auto;
-  height: 100%;
-  width: 100%;
-}
-
 body {
-  height: 400px;
+  height: 500px;
   background-image: url('https://unite.pokemon.com/images/home/team-up/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,13 +13,30 @@ body {
   width: 80%;
   background-color: transparent;
   margin: auto;
-  margin-top: 2em;
-  height: 102%;
+  margin-top: 1em;
+  margin-bottom: 8em;
+  height: 96%;
   border: 1px solid rgba(60, 60, 65, 0.8);
   border-radius: 20px;
   box-shadow: 0 0 90px 0 rgb(0 0 0 / 60%);
   display: flex;
   flex-direction: column;
+}
+
+.cabecera {
+  background: blueviolet;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+  border-radius: 12px 12px 0px 0px;
+  display: flex;
+  height: 80px;
+  box-sizing: content-box;
+  padding: 0.8% 1%;
+}
+
+.cabecera div img {
+  margin: auto;
+  height: 100%;
+  width: 100%;
 }
 
 .centro {
@@ -52,17 +53,17 @@ body {
 .nombre {
   font-family: 'PT Sans', sans-serif;
   font-size: 30px;
-  font-weight: 100;
+  font-weight: 15%;
   color: black;
   text-align: center;
 }
-.titulo {
+.pokemon {
   display: flex;
   flex-direction: column;
   height: 100%;
-
   justify-content: center;
   align-items: center;
+  padding: 1em;
 }
 .imP {
   height: 10%;
@@ -79,18 +80,21 @@ body {
 .informa {
   display: grid;
   grid-template-columns: auto auto;
+
   border: 1px solid rgba(60, 60, 65, 0.8);
   background-color: rgba(238, 223, 9, 0.726);
   opacity: 5;
   text-align: center;
-  width: 25%;
+  width: 29%;
+  height: 90%;
   margin: auto;
-  border-top-left-radius: 10px;
+  border-top-left-radius: 20px;
   border-top-right-radius: 0;
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 20px;
   border-bottom-left-radius: 0;
   font-family: 'PT Sans', sans-serif;
-  margin-top: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .informa div {
@@ -99,6 +103,7 @@ body {
 
 .informa p.titulo {
   font-size: 23px;
+  font-weight: 540;
 }
 .informa p.dato {
   font-size: 20px;
@@ -106,38 +111,39 @@ body {
 
 .final {
   display: flex;
-  width: 60%;
-  height: 20%;
-
+  width: 100%;
+  height: 17.5%;
   text-align: center;
   background-color: rgba(15, 15, 15, 0.575);
-
-  box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
   border-radius: 0px 0px 12px 12px;
-  margin: auto 0;
   box-sizing: content-box;
-  padding: 0.4% 1%;
-}
-.final h6 {
-  width: 20%;
-  margin: auto;
-  font-size: 25px;
-  font-style: italic;
-  text-shadow: 0 2 px 0 px var(--shadow);
-  transform: translateX(-50 px);
-  transition-delay: 0.3s;
-  font-family: 'PT Sans', sans-serif;
 }
 .final div {
   width: 80%;
   margin-left: 10%;
   margin: auto;
 }
+
 .final div button {
   margin-inline: 2em;
   opacity: 5;
   background-color: rgba(214, 196, 196, 0.253);
   border-radius: 20px;
+  margin: 1em;
+}
+
+.final div button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgb(88, 221, 11);
+}
+
+.final div button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(28, 9, 204, 0.993);
+}
+
+.final div button:hover {
+  background-color: rgba(255, 253, 251, 0.938);
 }
 
 .final div button img {
@@ -150,13 +156,22 @@ body {
   display: flex;
   flex-direction: row;
   height: 100%;
+  padding-left: 6em;
 }
 
 .caja2 {
   font-family: 'PT Sans', sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   color: white;
   background: rgb(184, 9, 9);
-  border-radius: 5px;
+  border-radius: 0px 5px 5px 0px;
+  width: 50%;
+  margin: auto;
+  font-size: 25px;
+  font-style: italic;
+  text-shadow: 0 2 px 0 px var(--shadow);
+  transform: translateX(-50 px);
+  transition-delay: 0.3s;
+  font-family: 'PT Sans', sans-serif;
 }

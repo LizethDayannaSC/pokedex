@@ -3,15 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+    <meta name="keywords" content="Pokédex, ejercicio front-end" />
     <link rel="stylesheet" href="estilos.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="normalice.css" />
+    <title>Pokédex</title>
+    <link rel="shortcut icon" href="imag/Pokebola.png" type="image/x-icon" />
   </head>
   <body>
     <div class="contenedor">
       <div class="cabecera">
-        <div><img src="imag/Pokebola.png" width="40px" /></div>
-        <div><img src="imag/pokedex.png" width="190px" /></div>
+        <div><img src="imag/Pokebola.png" /></div>
+        <div><img src="imag/pokedex.png" /></div>
       </div>
       <div class="centro">
         <div class="pokemon">
@@ -21,33 +27,42 @@
               CHARIZARD
             </h2>
           </div>
-          <img src="imag/Charizard.png" width="90%" height="90%" />
+          <img
+            class="pokemon__image"
+            src="imag/Charizard.png"
+            width="90%"
+            height="90%"
+          />
         </div>
         <div class="informa">
-          <div>
-            <p class="titulo">No.</p>
-            <p class="dato">006</p>
-          </div>
-          <div>
-            <p class="titulo">LEVEL</p>
-            <p class="dato">100</p>
-          </div>
-          <div>
-            <p class="titulo">TYPE</p>
-            <p class="dato">FIRE</p>
-          </div>
-          <div>
-            <p class="titulo">HABILITY</p>
-            <p class="dato">FLAMES</p>
-          </div>
-          <div>
-            <p class="titulo">HEIGHT</p>
-            <p class="dato">1,7 m</p>
-          </div>
-          <div>
-            <p class="titulo">WEIGHT</p>
-            <p class="dato">90.5 Kg</p>
-          </div>
+          
+            <div class="informa__data">
+              <p class="titulo">No.</p>
+              <p class="dato">006</p>
+            </div>
+            <div class="informa__data">
+              <p class="titulo">LEVEL</p>
+              <p class="dato">100</p>
+            </div>
+            <div class="informa__data">
+              <p class="titulo">TYPE</p>
+              <p class="dato">FIRE</p>
+            </div>
+            <div class="informa__data">
+              <p class="titulo">HABILITY</p>
+              <p class="dato">FLAMES</p>
+            </div>
+            <div class="informa__data">
+              <p class="titulo">HEIGHT</p>
+              <p class="dato">1,7 m</p>
+            </div>
+            <div class="informa__data">
+              <p class="titulo">WEIGHT</p>
+              <p class="dato">90.5 Kg</p>
+            </div>
+
+          </ul>
+          
         </div>
       </div>
       <div class="final">
@@ -55,10 +70,10 @@
           OTHERS
         </h6>
         <div class="otros">
-          <button><img src="imag/squi.png" /></button>
-          <button><img src="imag/Mewtwo.png" /></button>
-          <button><img src="imag/solgaleo.png" /></button>
-          <button><img src="imag/Snorlax.png" /></button>
+          <button class="otros__button"><img src="imag/squi.png" /></button>
+          <button class="otros__button"><img src="imag/Mewtwo.png" /></button>
+          <button class="otros__button"><img src="imag/solgaleo.png" /></button>
+          <button class="otros__button"><img src="imag/Snorlax.png" /></button>
         </div>
       </div>
     </div>
